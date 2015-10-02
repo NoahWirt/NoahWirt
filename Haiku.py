@@ -30,6 +30,7 @@ while True:
         generate_haiku()
     elif x == "n":
         print "Too bad."
+        raw_input("")
         sys.exit()
     else:
         print "Not accepted value."
