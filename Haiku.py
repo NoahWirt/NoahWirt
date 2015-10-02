@@ -4,7 +4,7 @@ Always gives the same combinations of syllable i.e. 1, 2, 3 for a five syllable 
 
 import random, sys
 
-print ("This is a program used to generate random haiku passages.")
+print "This is a program used to generate random haiku passages."
 
 #Defines words with certain numbers of syllables.
 one_syllable = ["A", "The", "Green", "Maul", "Caste", "Eat", "Mars"]
