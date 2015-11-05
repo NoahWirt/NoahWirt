@@ -1,3 +1,4 @@
+import random
 print "This is a program that analyzes user info to find the best canidate for you!"
 a = raw_input("Are you liberal or conservative?")
 b = raw_input("Do you believe in evolution?")
@@ -8,4 +9,5 @@ f = raw_input("What is your opinion on foreign intervention?")
 g = raw_input("Free college yes or no? Otherwise: are you braindead?")
 print "PROCCESSING..................................................................................."
 print "We analyzed your info and have come to a conclusion..."
-print "Donald \"Can't stump the Trump\" Trump © is best for you!"
+candidates = [ "Donald \"Can't stump the trump\" Trump ©", " Adolf Hitler "]
+print str(random.choice(candidates)) + "is best for you!"
